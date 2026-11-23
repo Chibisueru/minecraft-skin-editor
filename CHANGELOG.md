@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.2.0-alpha (2026-11-23)
+## v0.2.0 (2026-11-23)
 
-First public alpha.
+First public release.
 
 - Paint on a rotatable, pannable, zoomable 3D player model
 - Tools: Pencil, Eraser, Fill (limited to one face), Pick colour

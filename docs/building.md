@@ -86,7 +86,7 @@ reuse `target/windows-cache/`.
      --title "vX.Y.Z" --notes-file <notes>
    ```
 
-   Add `--prerelease` for alpha and beta builds.
+   Add `--prerelease` for test builds.
 
 `dist/` is ignored by git. Binaries go on the release page, not in the
 repository.

@@ -137,7 +137,7 @@ On the first run, the theme follows the system's light or dark setting.
 | Ctrl+W | Close tab |
 | Esc | Close the open dialog |
 
-## Known limitations (alpha)
+## Known limitations
 
 - There is no flat 2D texture view yet. All painting happens on the 3D model.
 - The brush is always one texel, and there is no mirror or symmetry mode.

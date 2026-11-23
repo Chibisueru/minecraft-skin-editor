@@ -1,8 +1,5 @@
 # Skin Editor
 
-> **Alpha.** This is an early release. The main features work, but expect
-> rough edges, and keep copies of skins you care about.
-
 A desktop editor for Minecraft skins. You paint directly on a 3D player model
 that you can rotate, move and zoom. The interface follows Material 3, and the
 app is written in Rust with [iced](https://iced.rs).
@@ -22,7 +19,7 @@ Builds are on the [Releases](../../releases) page.
 | Platform | File | How to run |
 | --- | --- | --- |
 | Linux | `skin-editor.flatpak` | `flatpak install --user skin-editor.flatpak`, then `flatpak run io.github.SkinEditor` |
-| Windows | `skin-editor.exe` (or `skin-editor.zip`) | Run the `.exe`; no installer is needed |
+| Windows | `skin-editor.exe` | Run the `.exe`; no installer is needed |
 
 The Flatpak needs the `org.freedesktop.Platform//26.08` runtime from Flathub.
 Flatpak offers to install it if it is missing.
