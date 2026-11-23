@@ -1,0 +1,24 @@
+[package]
+name = "skin-editor"
+version = "0.2.0"
+edition = "2021"
+description = "A Minecraft skin editor with a paintable 3D preview and a Material 3 interface"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+iced = { version = "0.13", features = ["canvas", "image", "tokio"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+dirs = "6.0"
+# Native file dialogs: the XDG desktop portal on Linux, the system dialog on
+# Windows and macOS.
+rfd = { version = "0.15", default-features = false, features = ["xdg-portal", "tokio"] }
+# Follows the desktop's light/dark preference at start-up.
+dark-light = "2.0"
+# Material 3 colour schemes generated from a seed colour.
+material-colors = "0.4"
+
+[profile.release]
+opt-level = 3
+
+[profile.dev]
+opt-level = 2

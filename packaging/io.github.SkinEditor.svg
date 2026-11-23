@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#EADDFF"/>
+  <!-- a blocky head, seen from the front -->
+  <rect x="32" y="28" width="64" height="64" rx="4" fill="#e0ac88"/>
+  <rect x="32" y="28" width="64" height="20" rx="4" fill="#4a3020"/>
+  <rect x="32" y="40" width="64" height="8" fill="#4a3020"/>
+  <rect x="40" y="60" width="8" height="8" fill="#fafafa"/>
+  <rect x="48" y="60" width="8" height="8" fill="#303f78"/>
+  <rect x="72" y="60" width="8" height="8" fill="#303f78"/>
+  <rect x="80" y="60" width="8" height="8" fill="#fafafa"/>
+  <rect x="56" y="76" width="16" height="8" fill="#9e5e50"/>
+  <!-- a pencil -->
+  <g transform="rotate(45 92 92)">
+    <rect x="84" y="62" width="16" height="40" fill="#fdd835"/>
+    <rect x="84" y="56" width="16" height="8" fill="#e53935"/>
+    <path d="M84 102h16l-8 14z" fill="#f5e6c8"/>
+    <path d="M89 110h6l-3 6z" fill="#1b1b1b"/>
+  </g>
+</svg>
